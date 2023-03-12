@@ -122,3 +122,13 @@ This code allows you to click the logout button
     it (' should logout', async () => {
     const logoutbtn =   $('[data-qa-id^="webnav-usermenu-logout"]'); 
     await logoutbtn.click();
+    
+    
+    
+    
+    
+    Improvements 
+    
+To improve the framework even further i would have included more unique attributes, e.g. Newcastle Jets FC didnt have a unique ID or class so i had to use a selector which is not as dynamic as a custom attribute.
+
+
