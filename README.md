@@ -55,7 +55,7 @@ The following confirms you are on the home page by verifying the text ‘'Change
    
 The next step is to click the login button then insert username,  password and click the login button
 
-clicking login button and insertting Username 
+Clicking login button and insertting Username 
 
     it('Should click login and insert username', async () => {
         const login =  $('[data-qa-id^="login"]');
@@ -68,7 +68,7 @@ clicking login button and insertting Username
            
 
 
-insertting Password 
+Insertting Password 
 
      it('Should insert password', async () => {
       const usernameSelect = $('[data-qa-id^="password-input"]');
@@ -117,6 +117,6 @@ This code allows you to click the menu button
 
 This code allows you to click the logout button 
 
-    ('It should logout', async () => {
+   it (' should logout', async () => {
     const logoutbtn =   $('[data-qa-id^="webnav-usermenu-logout"]'); 
     await logoutbtn.click();
