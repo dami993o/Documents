@@ -55,7 +55,7 @@ The following confirms you are on the home page by verifying the text ‘'Change
    
 The next step is to click the login button then insert username,  password and click the login button
 
-Username 
+clicking login button and insertting Username 
 
     it('Should click login and insert username', async () => {
         const login =  $('[data-qa-id^="login"]');
@@ -68,7 +68,7 @@ Username
            
 
 
-Password 
+insertting Password 
 
      it('Should insert password', async () => {
       const usernameSelect = $('[data-qa-id^="password-input"]');
@@ -82,7 +82,7 @@ Password
     
 
 
-Login Button
+Clicking Login Button
 
     it('Should click login botton', async () => {
      const loginbutton =  $('[data-qa-id^="login-btn"]');
