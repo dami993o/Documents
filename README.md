@@ -127,8 +127,10 @@ This code allows you to click the logout button
     
     
     
-    Improvements 
+     
     
+Improvements
+
 To improve the framework even further i would have included more unique attributes, e.g. Newcastle Jets FC didnt have a unique ID or class so i had to use a selector which is not as dynamic as a custom attribute.
 
 
