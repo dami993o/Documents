@@ -117,6 +117,8 @@ This code allows you to click the menu button
 
 This code allows you to click the logout button 
 
-   it (' should logout', async () => {
+ 
+    
+    it (' should logout', async () => {
     const logoutbtn =   $('[data-qa-id^="webnav-usermenu-logout"]'); 
     await logoutbtn.click();
