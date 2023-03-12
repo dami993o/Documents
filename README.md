@@ -71,8 +71,8 @@ Clicking login button and insertting Username
 Insertting Password 
 
      it('Should insert password', async () => {
-      const usernameSelect = $('[data-qa-id^="password-input"]');
-      await usernameSelect.addValue('1234Adet');
+      const passwordSelect = $('[data-qa-id^="password-input"]');
+      await passwordSelect.addValue('1234Adet');
 
  
 
